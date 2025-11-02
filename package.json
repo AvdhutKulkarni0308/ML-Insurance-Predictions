@@ -1,0 +1,26 @@
+{
+  "name": "ml-insurance-predictor",
+  "version": "1.0.0",
+  "description": "Node.js Application for ML Insurance Predictions with MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "init-db": "node scripts/initDatabase.js",
+    "import": "node scripts/importPredictions.js"
+  },
+  "keywords": [
+    "machine-learning",
+    "linear-regression",
+    "mysql",
+    "insurance",
+    "nodejs"
+  ],
+  "author": "Avdhut B. Kulkarni",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1"
+  }
+}
+
