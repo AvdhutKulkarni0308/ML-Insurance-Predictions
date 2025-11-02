@@ -2,6 +2,7 @@
 
 A Node.js application for managing Machine Learning predictions using MySQL database. This project implements a Linear Regression model for insurance charge predictions.
 
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](https://nodejs.org/)
 ## Features
 
 - ✅ MySQL database integration
